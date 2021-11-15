@@ -7,7 +7,7 @@ import NotFound from './pages/NotFound';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Checkout from './pages/Checkout';
-
+import Agenda from './pages/Agenda';
 
 export default () => {
     return (
@@ -26,6 +26,9 @@ export default () => {
             </Route>
             <Route exact path="/checkout">
                 <Checkout />
+            </Route>
+            <Route exact path="/Agenda">
+                <Agenda />
             </Route>
             <Route>
                 <NotFound />

@@ -14,14 +14,13 @@ border-bottom:1px solid #CCC;
 a {
     text-decoration:none;
 }
-
 .logo {
     flex:1;
     display:flex;
-    align-items:center;
+    flex-direction:column;
     height:60px;
 
-    .logo-1,
+    .logo-1 { margin-left:50px },
     .logo-2,
     .logo-3,
     .logo-4 {
@@ -34,6 +33,9 @@ a {
     .logo-4 { color:#4EADBE; }
 }
 
+.frase {
+    font-size:14px;
+}
 nav {
     padding-top:10px;
     padding-bottom:10px;

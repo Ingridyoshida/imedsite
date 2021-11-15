@@ -23,6 +23,7 @@ const Header = () => {
                         <span className="logo-3">e</span>
                         <span className="logo-4">d</span>
                     </Link>
+                    <text className="frase">Consultas e Tratamentos</text>
                 </div>
                 <nav>
                     <ul>
@@ -43,7 +44,7 @@ const Header = () => {
                                     <Link to="/signin">Paciente</Link>
                                 </li>
                                 <li>
-                                    <Link to="/signin">Profissional</Link>
+                                    <Link to="/Agenda">Profissional</Link>
                                 </li>
                                 <li>
                                     <Link to="/signup">Cadastrar</Link>
