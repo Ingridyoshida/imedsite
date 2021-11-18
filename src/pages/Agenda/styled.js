@@ -29,6 +29,21 @@ export const PageAgenda = styled.div`
         height: 300px;
         background-color: #fff;
     }
+    .bg1{
+        background-color: #DDA0DD
+    }
+    .bg2{
+        background-color: #9370DB
+    }
+    .bg3{
+        background-color: #3CB371
+    }
+    .bg4{
+        background-color: #20B2AA
+    }
+    .bg5{
+        background-color: 	#F08080
+    }
     .horarios{
         width:190px;
         height: 37px;

@@ -8,6 +8,7 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Checkout from './pages/Checkout';
 import Agenda from './pages/Agenda';
+import Myaccount from './pages/Myaccount';
 
 export default () => {
     return (
@@ -27,9 +28,16 @@ export default () => {
             <Route exact path="/checkout">
                 <Checkout />
             </Route>
+
             <Route exact path="/Agenda">
                 <Agenda />
             </Route>
+
+            <Route exact path="/Myaccount">
+                <Myaccount />
+            </Route>
+           
+           
             <Route>
                 <NotFound />
             </Route>
