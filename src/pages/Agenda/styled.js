@@ -23,11 +23,18 @@ export const PageAgenda = styled.div`
         margin-left: 10px;
         margin-top: 18px;
         display: flex;
+        overflow-x: auto;
+        overflow-y:auto;
+        gap:8px;
+    }
+    .agendamento::-webkit-scrollbar{
+        
     }
     .dias{
-        width: 200px;
+        min-width: 200px;
         height: 300px;
         background-color: #fff;
+        border-radius:5px;
     }
     .bg1{
         background-color: #DDA0DD
@@ -49,14 +56,14 @@ export const PageAgenda = styled.div`
         height: 37px;
         border: 1px solid #ccc;
         justify-content: center;
-        aling-items: center;
+        align-items: center;
         display: flex;
         padding-top:5px;
     }
     .nameperson{
         width:100px;
         height: 37px;
-        padding-botton:5px;
+        padding-bottom:5px;
     } 
     .texto{
         font-size:12px;

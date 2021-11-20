@@ -26,11 +26,25 @@ const Page = () => {
                     </div>
                     <div className="dias bg2">
                     </div>
-                    <div className="dias bg3">                            
+                    <div className="dias bg3">  
+                        <h1>text1</h1>                          
+                        <h1>text2</h1>                          
+                        <h1>text3</h1>                          
+                        <h1>text4</h1>                          
+                        <h1>text5</h1>                          
+                        <h1>text6</h1>                          
                     </div>
                     <div className="dias bg4">
                     </div>
                     <div className="dias bg5"> 
+                    </div>
+                    <div className="dias bg4"> 
+                    </div>
+                    <div className="dias bg3"> 
+                    </div>
+                    <div className="dias bg2"> 
+                    </div>
+                    <div className="dias bg1"> 
                     </div>
                 </div>
                 <button className="botao">Agendamento</button>
