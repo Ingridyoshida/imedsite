@@ -26,10 +26,13 @@ export const PageAgenda = styled.div`
         overflow-x: auto;
         overflow-y:auto;
         gap:8px;
-    }
-    .agendamento::-webkit-scrollbar{
         
     }
+    .agendamento::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+
     .dias{
         min-width: 200px;
         height: 300px;
