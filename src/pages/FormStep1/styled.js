@@ -4,8 +4,9 @@ export const Container = styled.div`
     max-width: 1000px;
     background-color:#BDDEEC;
     color: #FFF;
-    min-height: 100vh;
-    margin: auto;
+    height: 600px;
+    margin:0 auto;
+    margin-bottom:20px;
 
 `;
 
