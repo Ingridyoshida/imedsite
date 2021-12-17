@@ -17,9 +17,7 @@ export const PageAgenda = styled.div`
     .agendamento{
         width: 980px;
         height: 300px;
-        background-color: #eee;
-        border: 1px solid #ccc;
-        border-radius:3px;
+        background-color: #fff;
         margin-left: 10px;
         margin-top: 18px;
         display: flex;

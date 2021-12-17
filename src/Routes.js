@@ -9,6 +9,15 @@ import SignUp from './pages/SignUp';
 import Checkout from './pages/Checkout';
 import Agenda from './pages/Agenda';
 import Myaccount from './pages/Myaccount';
+import FormStep1 from './pages/FormStep1';
+import FormStep2 from './pages/FormStep2';
+import FormStep3 from './pages/FormStep3';
+import Info from './pages/Info';
+import Form1 from './pages/Form1';
+import Form2 from './pages/Form2';
+import Patient from './pages/Patient';
+import Timetable from './pages/Timetable';
+
 
 export default () => {
     return (
@@ -29,14 +38,45 @@ export default () => {
                 <Checkout />
             </Route>
 
-            <Route exact path="/Agenda">
+            <Route exact path="/agenda">
                 <Agenda />
             </Route>
 
-            <Route exact path="/Myaccount">
+            <Route exact path="/myaccount">
                 <Myaccount />
             </Route>
+
+            <Route exact path="/info">
+                <Info />
+            </Route>
+            
+            <Route exact path="/FormStep1">
+                <FormStep1 />
+            </Route>
+
+            <Route exact path="/FormStep2">
+                <FormStep2 />
+            </Route> 
+            
+            <Route exact path="/FormStep3">
+                <FormStep3 />
+            </Route>
            
+            <Route exact path="/Form1">
+                <Form1 />
+            </Route>
+
+            <Route exact path="/Form2">
+                <Form2 />
+            </Route>
+
+            <Route exact path="/Patient">
+                <Patient />
+            </Route>
+
+            <Route exact path="/Timetable">
+                <Timetable />
+            </Route>
            
             <Route>
                 <NotFound />

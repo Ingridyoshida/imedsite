@@ -28,7 +28,7 @@ const Page = () => {
                       <Pageprofessional>
                             <AvatarProfessional>
                                     <Photo>
-                                    <img width="170" src={Avatar} alt="calendario"/>
+                                    <img width="170" src={Avatar} alt="personal"/>
                                     <button className="profile">Alterar Perfil</button>
                                     </Photo>
                                     <Information>
