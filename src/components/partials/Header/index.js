@@ -44,7 +44,7 @@ const Header = () => {
                                     <Link to="/signin">Paciente</Link>
                                 </li>
                                 <li>
-                                    <Link to="/Agenda">Profissional</Link>
+                                    <Link to="signin">Profissional</Link>
                                 </li>
                                 <li>
                                     <Link to="/Info">Cadastrar</Link>

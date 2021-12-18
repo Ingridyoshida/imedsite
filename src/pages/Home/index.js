@@ -46,7 +46,7 @@ const Page = () => {
                                         <h2>POR MÊS</h2>
                                     </PriceTwo>
                                         <AreaButton>
-                                        <Link to="/signup">ASSINAR</Link>
+                                        <Link to="/FormStep1">ASSINAR</Link>
                                         <Information>Este plano é renovado automaticamente a cada mês</Information>
                                         </AreaButton>        
                                 </PriceMonth>
@@ -57,7 +57,7 @@ const Page = () => {
                                         <h2>POR MÊS</h2>
                                     </PriceTwo>
                                         <AreaButton>
-                                        <Link to="/signup">ASSINAR</Link>
+                                        <Link to="FormStep1">ASSINAR</Link>
                                         <Information>Este plano é renovado automaticamente a cada mês</Information>
                                         </AreaButton>
                                 </PriceSemiannual>
@@ -68,7 +68,7 @@ const Page = () => {
                                         <h2>POR MÊS</h2>
                                     </PriceTwo>
                                         <AreaButton>
-                                        <Link to="/signup">ASSINAR</Link>
+                                        <Link to="/FormStep1">ASSINAR</Link>
                                         <Information>Este plano é renovado automaticamente a cada mês</Information>
                                         </AreaButton>
                                 </PriceYear>

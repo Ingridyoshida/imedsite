@@ -6,13 +6,12 @@ export const Container = styled.div`
     background-color: #fff;
 
     a {
-        background: #2DA493;
-        color:#000;
-        font-size:22px;
+        font-weight: bold;
+        color:#FFF;
+        font-size: 33px;
         text-decoration:none;
         margin: 80px;
         padding: 8px;
-        border: 1px solid #97D8CF;
         border-radius: 5px;
     }
 `;

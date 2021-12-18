@@ -6,6 +6,7 @@ export const Container = styled.div`
     color: #FFF;
     min-height: 160vh;
     margin: auto;
+    margin-bottom: 20px;
 `;
 
 export const ContainerArea = styled.div`
