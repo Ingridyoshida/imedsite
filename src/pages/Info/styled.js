@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     width: 100%;
+    height: 500px;
     padding: 40px;
+    margin-top: 40px;
+    margin-bottom: -130px;
     background-color: #fff;
 
     a {

@@ -48,14 +48,68 @@ import { Container,
                                     </select>
                                 </div>
                         </label>
-                        
+
                         <label className="area">
-                                <div className="area--input">
-                                    <input
-                                        placeholder="Especialidade"
-                                    />
+                        <div className="area--input">
+                                    <select
+                                        
+                                    >
+                                        <option>Especialidades</option>
+                                        <option>Acupuntura</option>
+                                        <option>Alergia e Imunologia</option>
+                                        <option>Angiologia</option>
+                                        <option>Cardiologia</option>
+                                        <option>Coloproctologia</option>
+                                        <option>Dermatofincional</option>
+                                        <option>Dermatologia</option>
+                                        <option>Endocrinologia e Metabologia</option>
+                                        <option>Endodontia</option>
+                                        <option>Endoscopia</option>
+                                        <option>Esportiva</option>
+                                        <option>Gastroenterologia</option>
+                                        <option>Geriatria</option>
+                                        <option>Gerontologia</option>
+                                        <option>Ginecologia e Obstetrícia</option>
+                                        <option>Hematologia e Hemoterapia</option>
+                                        <option>Homeopatia</option>
+                                        <option>Implantodontia</option>
+                                        <option>Infectologia</option>
+                                        <option>Mastologia</option>
+                                        <option>Medicina do trabalho</option>
+                                        <option>Medicina Esportiva</option>
+                                        <option>Medicina Nuclear</option>
+                                        <option>Nefrologia</option>
+                                        <option>Neurocirurgia</option>
+                                        <option>Neurofuncional</option>
+                                        <option>Neurologia</option>
+                                        <option>Neuropsicologia</option>
+                                        <option>Nutrologia</option>
+                                        <option>Odontologia Estética</option>
+                                        <option>Odontopediatria</option>
+                                        <option>Odontogeriatria</option>
+                                        <option>Oftalmologia</option>
+                                        <option>Oncologia Clínica</option>
+                                        <option>Ortodontia</option>
+                                        <option>Ortopedia e Traumatologia</option>
+                                        <option>Osteopatia</option>
+                                        <option>Otorrinolaringologia</option>
+                                        <option>Pediatria</option>
+                                        <option>Pneumologia</option>
+                                        <option>Psicomotricidade</option>
+                                        <option>Psicopedagogia</option>
+                                        <option>Psiquiatria</option>
+                                        <option>Quiropraxia</option>
+                                        <option>Radiologia e Diagnóstico por imagem</option>
+                                        <option>Radioterapia</option>
+                                        <option>Reumatologia</option>
+                                        <option>Traumato-Ortopédica</option>
+                                        <option>Urologia</option>                             
+                                        
+                                    </select>
                                 </div>
-                            </label>
+                        </label>
+                        
+                        
                         </div>          
 
                         <div className="container"> 

@@ -5,7 +5,6 @@ import { Container,
          BodyProfessional,
          AreaButton,
          AreaImage,
-         BodyPeople
 
 } from './styled.js';
 
@@ -14,7 +13,7 @@ import { Link } from 'react-router-dom';
 import { PageContainer } from '../../components/MainComponents';
 
 import Medico from '../images/medico.svg';
-import People from '../images/people.svg';
+
 
 
 const Page = () => {
@@ -36,17 +35,7 @@ const Page = () => {
                                      <img width="350" src={Medico} />
                                 </AreaImage>
                         </BodyProfessional>
-                        <header>
-                            <h1>Cadastro de Pacientes</h1>    
-                        </header>  
-                        <BodyPeople>
-                        <AreaButton>
-                              <img width="350" src={People} />
-                                </AreaButton>
-                                <AreaImage>
-                                <Link to="/Form1">Clique Aqui</Link>
-                                </AreaImage>
-                        </BodyPeople>
+                      
                    </BodyArea>
                 </Container>  
             </PageContainer>

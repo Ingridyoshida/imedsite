@@ -55,11 +55,17 @@ nav {
         margin-left:20px;
         margin-right:20px;
 
+        .enter {
+            color:#4EADBE; 
+            font-size: 18px;
+        }
+
         a, button {
             border:0;
             background:none;
-            color:#000;
-            font-size:14px;
+            color: #000;
+            font-size:16px;
+            font-weight: bold;
             text-decoration:none;
             cursor:pointer;
             outline:0;
@@ -78,6 +84,8 @@ nav {
             &.button:hover {
                 background-color:#E57706;
             }
+
+            
         }
     }
 }

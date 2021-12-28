@@ -13,10 +13,11 @@ import FormStep1 from './pages/FormStep1';
 import FormStep2 from './pages/FormStep2';
 import FormStep3 from './pages/FormStep3';
 import Info from './pages/Info';
-import Form1 from './pages/Form1';
-import Form2 from './pages/Form2';
 import Patient from './pages/Patient';
 import Timetable from './pages/Timetable';
+import Ourcompany from './pages/Ourcompany';
+import Contacts from './pages/Contacts';
+import CompanyPolitics from './pages/CompanyPolitics';
 
 
 export default () => {
@@ -61,14 +62,6 @@ export default () => {
             <Route exact path="/FormStep3">
                 <FormStep3 />
             </Route>
-           
-            <Route exact path="/Form1">
-                <Form1 />
-            </Route>
-
-            <Route exact path="/Form2">
-                <Form2 />
-            </Route>
 
             <Route exact path="/Patient">
                 <Patient />
@@ -76,6 +69,18 @@ export default () => {
 
             <Route exact path="/Timetable">
                 <Timetable />
+            </Route>
+
+            <Route exact path="/Ourcompany">
+                <Ourcompany />
+            </Route>
+
+            <Route exact path="/Contacts">
+                <Contacts />
+            </Route>
+
+            <Route exact path="/CompanyPolitics">
+                <CompanyPolitics />
             </Route>
            
             <Route>

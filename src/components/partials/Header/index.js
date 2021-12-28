@@ -40,11 +40,9 @@ const Header = () => {
                         }
                         {!logged &&
                             <>
+                               
                                 <li>
-                                    <Link to="/signin">Paciente</Link>
-                                </li>
-                                <li>
-                                    <Link to="signin">Profissional</Link>
+                                    <Link className="enter" to="signin">Entrar</Link>
                                 </li>
                                 <li>
                                     <Link to="/Info">Cadastrar</Link>

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterArea = styled.div`
-    height:150px;
+    height: 110px;
     background-color:#4EADBE;
     display: flex;
     justify-content: space-between;
@@ -19,18 +19,18 @@ export const FooterArea = styled.div`
 
   
 `;
-export const Company = styled.div``;
+export const Company = styled.div`
+    display: flex;
+`;
 
 export const Social = styled.div`
     font-size: 8px;
     display: flex;
     flex-direction: row;
     width: 380px;
-    height: 50px;
-    margin-rigth: 50px;
+    height: 60px;
+    margin-rigth: 90px;
     padding: 10px;
-    padding-rigth: 200px;
+    padding-rigth: 250px;
     align-items: center;
-    justify-content: center;
-    
 `;
