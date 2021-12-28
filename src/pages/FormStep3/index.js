@@ -21,6 +21,10 @@ import { Container,
 const Page = () => {
         const history = useHistory();
 
+        const handleBackStep = () => {
+            history.push('/formStep2');
+        } 
+
         const handleNextStep = () => {
             history.push('/Timetable');
         }  
@@ -118,7 +122,7 @@ const Page = () => {
                    </Payment>
                    <div className="finalcheck"> 
                         <div className="buttonArea">
-                            <button className="back">Voltar</button>
+                            <button className="back" onClick={handleBackStep} >Voltar</button>
                             <button onClick={handleNextStep} className="finalButton">Finalizar</button>
                         </div>
                    </div>

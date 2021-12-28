@@ -7,7 +7,7 @@ export const Container = styled.div`
     height: 600px;
     margin:0 auto;
     margin-bottom:20px;
-
+    border-radius: 10px;
 `;
 
 export const ContainerArea = styled.div`

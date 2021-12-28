@@ -7,6 +7,7 @@ export const Container = styled.div`
     min-height: 160vh;
     margin: auto;
     margin-bottom: 20px;
+    border-radius: 10px;
 `;
 
 export const ContainerArea = styled.div`
@@ -362,15 +363,16 @@ export const PriceYear = styled.div`
 `;
 
 export const Payment = styled.div`
-    width: 430px;
-    height: 220px;
-    background-color:	#5F9EA0;
+    width: 420px;
+    height: 190px;
+    background-color: #5F9EA0;
     border: 1px solid #8c8989;
-    box-shadow: 1px 1px #888888;
     border-radius: 15px;
     margin: 0 auto;
     margin-bottom: 20px;
-    padding: 18px 15px;;
+    margin-top: 30px;
+    padding: 18px 15px;
+    
     
 
     .pay--name {

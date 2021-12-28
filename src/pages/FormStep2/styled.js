@@ -4,9 +4,10 @@ export const Container = styled.div`
     max-width: 1000px;
     background-color:#BDDEEC;
     color: #FFF;
-    min-height: 120vh;
+    min-height: 115vh;
     margin: auto;
     margin-bottom: 20px;
+    border-radius: 10px;
 `;
 
 export const ContainerArea = styled.div`
